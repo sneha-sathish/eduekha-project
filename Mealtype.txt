@@ -1,0 +1,6 @@
+const mealtype = require('../Models/Mealtype.json');
+
+exports.getMealType = (req,res,next) =>{
+        res.status(200).json({message: "Mealtype Fetched Successfully", MealType: mealtype})
+        .catch(err=>console.log(err));
+}

@@ -1,0 +1,24 @@
+[
+    {
+        "id":"1",
+        "Restaurant":"KFC",
+        "City":"Pune"
+        
+    },
+    {
+        "id":"2",
+        "Restaurant":"KFC",
+        "City":"Delhi"
+    },
+    {
+        "id":"3",
+        "Restaurant":"KFC",
+        "City":"Delhi"
+    },
+    {
+        "id":"4",
+        "Restaurant":"KFC",
+        "City":"Mumbai"
+    }
+
+]

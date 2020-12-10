@@ -1,0 +1,6 @@
+const City = require('../Models/City.json');
+
+exports.getCityList = (req,res,next) =>{
+        res.status(200).json({message: "City Fetched Successfully", city: City})
+        .catch(err=>console.log(err));
+}
